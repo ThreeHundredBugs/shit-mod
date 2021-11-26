@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "I I",
+    "I I"
+  ],
+  "key": {
+    "I": {
+      "item": "shitmod:shit_ingot"
+    }
+  },
+  "result": {
+    "item": "shitmod:shit_boots",
+    "count": 1
+  }
+}
