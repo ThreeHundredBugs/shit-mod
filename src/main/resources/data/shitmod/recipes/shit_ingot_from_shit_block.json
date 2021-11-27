@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "shit_ingot",
+  "ingredients": [
+    {
+      "item": "shitmod:shit_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:shit_ingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "shit_ingot",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "shitmod:shit_nugget"
+    }
+  },
+  "result": {
+    "item": "shitmod:shit_ingot"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": [
+    {
+      "item": "shitmod:shit_pickaxe"
+    },
+    {
+      "item": "shitmod:shit_shovel"
+    },
+    {
+      "item": "shitmod:shit_axe"
+    },
+    {
+      "item": "shitmod:shit_hoe"
+    },
+    {
+      "item": "shitmod:shit_sword"
+    },
+    {
+      "item": "shitmod:shit_helmet"
+    },
+    {
+      "item": "shitmod:shit_chestplate"
+    },
+    {
+      "item": "shitmod:shit_leggings"
+    },
+    {
+      "item": "shitmod:shit_boots"
+    }
+  ],
+  "result": "shitmod:shit_nugget",
+  "experience": 0.1,
+  "cookingtime": 200
+}

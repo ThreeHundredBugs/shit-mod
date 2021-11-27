@@ -1,7 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "   ",
     "I I",
     "I I"
   ],
@@ -11,7 +10,6 @@
     }
   },
   "result": {
-    "item": "shitmod:shit_boots",
-    "count": 1
+    "item": "shitmod:shit_boots"
   }
 }

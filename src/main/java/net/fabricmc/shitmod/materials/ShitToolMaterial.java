@@ -6,8 +6,8 @@ import net.minecraft.recipe.Ingredient;
 
 public class ShitToolMaterial implements ToolMaterial
 {
-    private static final int durability = 500;
-    private static final float miningSpeedMultiplier = 5.0F;
+    private static final int durability = 400;
+    private static final float miningSpeedMultiplier = 6.0F;
     private static final float attackDamage = 3.0F;
     private static final int miningLevel = 2;
     private static final int enchantability = 15;

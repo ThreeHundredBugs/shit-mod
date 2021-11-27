@@ -12,11 +12,20 @@ public class RegisterItems
     {
         Registry.register(Registry.ITEM, new Identifier("shitmod", "shit_ore"), ShitItems.shitOre);
         Registry.register(Registry.ITEM, new Identifier("shitmod", "shit_ingot"), ShitItems.shitIngot);
+        Registry.register(Registry.ITEM, new Identifier("shitmod", "shit_nugget"), ShitItems.shitNugget);
+
         Registry.register(Registry.ITEM, new Identifier("shitmod", "shit_sword"), ShitItems.shitSword);
+        Registry.register(Registry.ITEM, new Identifier("shitmod", "shit_dagger"), ShitItems.shitDagger);
+        Registry.register(Registry.ITEM, new Identifier("shitmod", "shit_pickaxe"), ShitItems.shitPickaxe);
+        Registry.register(Registry.ITEM, new Identifier("shitmod", "shit_axe"), ShitItems.shitAxe);
+        Registry.register(Registry.ITEM, new Identifier("shitmod", "shit_shovel"), ShitItems.shitShovel);
+        Registry.register(Registry.ITEM, new Identifier("shitmod", "shit_hoe"), ShitItems.shitHoe);
+
         Registry.register(Registry.ITEM, new Identifier("shitmod", "shit_helmet"), ShitItems.shitHelmet);
         Registry.register(Registry.ITEM, new Identifier("shitmod", "shit_chestplate"), ShitItems.shitChestplate);
         Registry.register(Registry.ITEM, new Identifier("shitmod", "shit_leggings"), ShitItems.shitLeggings);
         Registry.register(Registry.ITEM, new Identifier("shitmod", "shit_boots"), ShitItems.shitBoots);
+
         Registry.register(Registry.BLOCK, new Identifier("shitmod", "shit_block"), ShitItems.shitBlock);
         Registry.register(Registry.BLOCK, new Identifier("shitmod", "shit_block_slab"), ShitItems.shitBlockSlab);
         Registry.register(Registry.ITEM, new Identifier("shitmod", "shit_block"),

@@ -1,16 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "III",
-    "I I",
-    "   "
+    "II",
+    " S",
+    " S"
   ],
   "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
     "I": {
       "item": "shitmod:shit_ingot"
     }
   },
   "result": {
-    "item": "shitmod:shit_helmet"
+    "item": "shitmod:shit_hoe"
   }
 }

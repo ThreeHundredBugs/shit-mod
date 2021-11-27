@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "shitmod:shit_ingot"
+    }
+  ],
+  "result": {
+    "item": "shitmod:shit_nugget",
+    "count": 9
+  }
+}
