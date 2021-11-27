@@ -4,7 +4,8 @@ import net.fabricmc.shitmod.ShitItems;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
-public class ShitToolMaterial implements ToolMaterial {
+public class ShitToolMaterial implements ToolMaterial
+{
     private static final int durability = 500;
     private static final float miningSpeedMultiplier = 5.0F;
     private static final float attackDamage = 3.0F;
@@ -13,32 +14,38 @@ public class ShitToolMaterial implements ToolMaterial {
     public static final ShitToolMaterial INSTANCE = new ShitToolMaterial();
 
     @Override
-    public int getDurability() {
+    public int getDurability()
+    {
         return ShitToolMaterial.durability;
     }
 
     @Override
-    public float getMiningSpeedMultiplier() {
+    public float getMiningSpeedMultiplier()
+    {
         return ShitToolMaterial.miningSpeedMultiplier;
     }
 
     @Override
-    public float getAttackDamage() {
+    public float getAttackDamage()
+    {
         return ShitToolMaterial.attackDamage;
     }
 
     @Override
-    public int getMiningLevel() {
+    public int getMiningLevel()
+    {
         return ShitToolMaterial.miningLevel;
     }
 
     @Override
-    public int getEnchantability() {
+    public int getEnchantability()
+    {
         return ShitToolMaterial.enchantability;
     }
 
     @Override
-    public Ingredient getRepairIngredient() {
+    public Ingredient getRepairIngredient()
+    {
         return Ingredient.ofItems(ShitItems.shitIngot);
     }
 }

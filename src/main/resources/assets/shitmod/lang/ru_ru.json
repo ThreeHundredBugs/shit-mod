@@ -6,5 +6,8 @@
   "item.shitmod.shit_chestplate": "Нагрудниг из говна",
   "item.shitmod.shit_leggings": "Штаны из говна",
   "item.shitmod.shit_boots": "Ботинки из говна",
-  "item.shitmod.shit_ore": "Гавно!!"
+  "item.shitmod.shit_ore": "Гавно!!",
+  "block.shitmod.shit_block": "Блок говна",
+  "block.shitmod.shit_block_slab": "Полублок говна"
+
 }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "shitmod:shit_ingot"
+    }
+  },
+  "result": {
+    "item": "shitmod:shit_block",
+    "count": 1
+  }
+}
