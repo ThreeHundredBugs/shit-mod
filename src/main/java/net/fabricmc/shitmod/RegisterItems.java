@@ -14,6 +14,7 @@ public class RegisterItems
         Registry.register(Registry.ITEM, new Identifier("shitmod", "shit_ingot"), ShitItems.shitIngot);
         Registry.register(Registry.ITEM, new Identifier("shitmod", "shit_nugget"), ShitItems.shitNugget);
 
+        Registry.register(Registry.ITEM, new Identifier("shitmod", "iron_greatsword"), ShitItems.ironGreatsword);
         Registry.register(Registry.ITEM, new Identifier("shitmod", "shit_sword"), ShitItems.shitSword);
         Registry.register(Registry.ITEM, new Identifier("shitmod", "shit_dagger"), ShitItems.shitDagger);
         Registry.register(Registry.ITEM, new Identifier("shitmod", "shit_pickaxe"), ShitItems.shitPickaxe);

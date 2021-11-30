@@ -14,6 +14,7 @@ import net.minecraft.item.*;
 public class ShitItems
 {
 
+
     public static final Item shitOre = new ShitOre(new FabricItemSettings().group(ShitItemGroup.shitItemGroup));
     public static final Item shitIngot = new ShitIngot(new FabricItemSettings().group(ShitItemGroup.shitItemGroup));
     public static final Item shitNugget = new ShitNugget(new FabricItemSettings().group(ShitItemGroup.shitItemGroup));
@@ -23,6 +24,7 @@ public class ShitItems
     public static final Item shitChestplate = new ArmorItem(shitArmorMaterial, EquipmentSlot.CHEST, new Item.Settings().group(ShitItemGroup.shitItemGroup));
     public static final Item shitLeggings = new ArmorItem(shitArmorMaterial, EquipmentSlot.LEGS, new Item.Settings().group(ShitItemGroup.shitItemGroup));
     public static final Item shitBoots = new ArmorItem(shitArmorMaterial, EquipmentSlot.FEET, new Item.Settings().group(ShitItemGroup.shitItemGroup));
+    public static final ToolItem ironGreatsword = new IronGreatsword(shitToolMaterial, 6, -3.0f, new Item.Settings().group(ShitItemGroup.shitItemGroup));
     public static ToolItem shitShovel = new ShitShovelItem(shitToolMaterial, 1.5F, -3.0F, new Item.Settings().group(ShitItemGroup.shitItemGroup));
     public static ToolItem shitPickaxe = new ShitPickaxeItem(shitToolMaterial, 2, -3.0F, new Item.Settings().group(ShitItemGroup.shitItemGroup));
     public static ToolItem shitAxe = new ShitAxeItem(shitToolMaterial, 3.5F, -3.0F, new Item.Settings().group(ShitItemGroup.shitItemGroup));

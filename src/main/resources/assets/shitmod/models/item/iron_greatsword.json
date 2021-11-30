@@ -1,0 +1,162 @@
+{   "parent": "block/block",
+  "texture_size":[5,1],
+  "display": {
+    "head": {
+      "rotation": [ -60, 0, 0 ],
+      "translation": [ 0, 5, -9],
+      "scale":[ 2, 2, 2]
+    },
+    "firstperson_righthand": {
+      "rotation": [ -70, 0, 90 ],
+      "translation": [ -10, 11, 5],
+      "scale": [ 0.5, 0.5, 0.5 ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [ -70, 0, 90 ],
+      "translation": [ -10, 8, 13],
+      "scale": [ 0.5, 0.5, 0.5 ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [ -70, 0, 90 ],
+      "translation": [ -16, 24, -7],
+      "scale": [ 2, 2, 2 ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [ -70, 0, 90 ],
+      "translation": [ -16, 20, 27],
+      "scale": [ 2, 2, 2 ]
+    },
+    "gui": {
+      "rotation": [90, 135, 0],
+      "translation": [-4.5, 8, 0],
+      "scale": [1, 1, 1]
+    }
+  },
+  "ambientocclusion": false,
+  "textures": {
+    "shit_sword": "shitmod:item/shit_sword",
+    "sword_colors": "shitmod:item/sword_colors"
+  },
+  "elements": [
+    {
+      "from": [ -0.283263, -0.283263, -8.217262 ],
+      "to": [ 0.283263, 0.283263, -0.157803],
+      "faces": {
+        "down": { "uv": [ 0, 0, 1, 1 ], "texture": "#sword_colors" },
+        "up":    { "uv": [ 0, 0, 1, 1 ], "texture": "#sword_colors" },
+        "north": { "uv": [ 0, 0, 1, 1 ], "texture": "#sword_colors" },
+        "south": { "uv": [ 0, 0, 1, 1 ], "texture": "#sword_colors" },
+        "west":  { "uv": [ 0, 0, 1, 1 ], "texture": "#sword_colors" },
+        "east":  { "uv": [ 0, 0, 1, 1 ], "texture": "#sword_colors" }
+      }
+    },
+    {
+      "from": [ -0.550412, -0.418085, -9.305597],
+      "to": [ 0.538906, 0.490520, -7.976181],
+      "faces": {
+        "down": { "uv": [ 1, 0, 2, 1 ], "texture": "#sword_colors" },
+        "up":    { "uv": [ 1, 0, 2, 1 ], "texture": "#sword_colors" },
+        "north": { "uv": [ 1, 0, 2, 1 ], "texture": "#sword_colors" },
+        "south": { "uv": [ 1, 0, 2, 1 ], "texture": "#sword_colors" },
+        "west":  { "uv": [ 1, 0, 2, 1 ], "texture": "#sword_colors" },
+        "east":  { "uv": [ 1, 0, 2, 1 ], "texture": "#sword_colors" }
+      }
+    },
+    {
+      "from": [ -1.524801, -0.367745, -0.580883 ],
+      "to": [ 1.501815, 0.382065, 0.658823 ],
+      "faces": {
+        "down": { "uv": [ 1, 0, 2, 1 ], "texture": "#sword_colors" },
+        "up":    { "uv": [ 1, 0, 2, 1 ], "texture": "#sword_colors" },
+        "north": { "uv": [ 1, 0, 2, 1 ], "texture": "#sword_colors" },
+        "south": { "uv": [ 1, 0, 2, 1 ], "texture": "#sword_colors" },
+        "west":  { "uv": [ 1, 0, 2, 1 ], "texture": "#sword_colors" },
+        "east":  { "uv": [ 1, 0, 2, 1 ], "texture": "#sword_colors" }
+      }
+    },
+    {
+      "from": [ 1.432212, -0.100391,-0.574598 ],
+      "to": [ 2.039018, 0.164801, 0.654170 ],
+      "faces": {
+        "down": { "uv": [ 1, 0, 2, 1 ], "texture": "#sword_colors" },
+        "up":    { "uv": [ 1, 0, 2, 1 ], "texture": "#sword_colors" },
+        "north": { "uv": [ 1, 0, 2, 1 ], "texture": "#sword_colors" },
+        "south": { "uv": [ 1, 0, 2, 1 ], "texture": "#sword_colors" },
+        "west":  { "uv": [ 1, 0, 2, 1 ], "texture": "#sword_colors" },
+        "east":  { "uv": [ 1, 0, 2, 1 ], "texture": "#sword_colors" }
+      }
+    },
+    {
+      "from": [ -2.015935,-0.056999, -0.569196 ],
+      "to": [ -1.459234, 0.195126 , 0.644983 ],
+      "faces": {
+        "down": { "uv": [ 1, 0, 2, 1 ], "texture": "#sword_colors" },
+        "up":    { "uv": [ 1, 0, 2, 1 ], "texture": "#sword_colors" },
+        "north": { "uv": [ 1, 0, 2, 1 ], "texture": "#sword_colors" },
+        "south": { "uv": [ 1, 0, 2, 1 ], "texture": "#sword_colors" },
+        "west":  { "uv": [ 1, 0, 2, 1 ], "texture": "#sword_colors" },
+        "east":  { "uv": [ 1, 0, 2, 1 ], "texture": "#sword_colors" }
+      }
+    },
+    {
+      "from": [ -0.790300, -0.257801, 0.271088 ],
+      "to": [ 0.752845, 0.258758, 17.049639 ],
+      "faces": {
+        "down": { "uv": [ 2, 0, 3, 1 ], "texture": "#sword_colors" },
+        "up":    { "uv": [ 2, 0, 3, 1 ], "texture": "#sword_colors" },
+        "north": { "uv": [ 2, 0, 3, 1 ], "texture": "#sword_colors" },
+        "south": { "uv": [ 2, 0, 3, 1 ], "texture": "#sword_colors" },
+        "west":  { "uv": [ 2, 0, 3, 1 ], "texture": "#sword_colors" },
+        "east":  { "uv": [ 2, 0, 3, 1 ], "texture": "#sword_colors" }
+      }
+    },
+    {
+      "from": [ 0.716208, -0.117108, 0.314726 ],
+      "to": [ 0.983847, 0.094466, 17.060396 ],
+      "faces": {
+        "down": { "uv": [ 3, 0, 4, 1 ], "texture": "#sword_colors" },
+        "up":    { "uv": [ 3, 0, 4, 1 ], "texture": "#sword_colors" },
+        "north": { "uv": [ 3, 0, 4, 1 ], "texture": "#sword_colors" },
+        "south": { "uv": [ 3, 0, 4, 1 ], "texture": "#sword_colors" },
+        "west":  { "uv": [ 3, 0, 4, 1 ], "texture": "#sword_colors" },
+        "east":  { "uv": [ 3, 0, 4, 1 ], "texture": "#sword_colors" }
+      }
+    },
+    {
+      "from": [ -1.013372, -0.111884, 0.676049 ],
+      "to": [ -0.666859, 0.108933, 17.065601 ],
+      "faces": {
+        "down": { "uv": [ 3, 0, 4, 1 ], "texture": "#sword_colors" },
+        "up":    { "uv": [ 3, 0, 4, 1 ], "texture": "#sword_colors" },
+        "north": { "uv": [ 3, 0, 4, 1 ], "texture": "#sword_colors" },
+        "south": { "uv": [ 3, 0, 4, 1 ], "texture": "#sword_colors" },
+        "west":  { "uv": [ 3, 0, 4, 1 ], "texture": "#sword_colors" },
+        "east":  { "uv": [ 3, 0, 4, 1 ], "texture": "#sword_colors" }
+      }
+    },
+    {
+      "from": [ -0.998001, -0.118337, 17.029886 ],
+      "to": [ 0.960798, 0.091326, 17.370308 ],
+      "faces": {
+        "down": { "uv": [ 3, 0, 4, 1 ], "texture": "#sword_colors" },
+        "up":    { "uv": [ 3, 0, 4, 1 ], "texture": "#sword_colors" },
+        "north": { "uv": [ 3, 0, 4, 1 ], "texture": "#sword_colors" },
+        "south": { "uv": [ 3, 0, 4, 1 ], "texture": "#sword_colors" },
+        "west":  { "uv": [ 3, 0, 4, 1 ], "texture": "#sword_colors" },
+        "east":  { "uv": [ 3, 0, 4, 1 ], "texture": "#sword_colors" }
+      }
+    },
+    {
+      "from": [ -0.369384, -0.217071, -9.660416 ],
+      "to": [ 0.370180, 0.285160, -9.151096 ],
+      "faces": {
+        "down": { "uv": [ 0, 0, 1, 1 ], "texture": "#sword_colors" },
+        "up":    { "uv": [ 0, 0, 1, 1 ], "texture": "#sword_colors" },
+        "north": { "uv": [ 0, 0, 1, 1 ], "texture": "#sword_colors" },
+        "south": { "uv": [ 0, 0, 1, 1 ], "texture": "#sword_colors" },
+        "west":  { "uv": [ 0, 0, 1, 1 ], "texture": "#sword_colors" },
+        "east":  { "uv": [ 0, 0, 1, 1 ], "texture": "#sword_colors" }
+      }
+    }
+  ]
+}
